@@ -1,9 +1,10 @@
 import React, {Component, useState} from "react";
+import HeaderModal from "./Modal";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from "react-bootstrap/Button";
-import { Card, CardText, CardBody, CardTitle, CardSubtitle } from "react-bootstrap";
+import { Card, CardText, CardBody, CardTitle, CardSubtitle, ModalHeader } from "react-bootstrap";
 import { Collapse } from "react-bootstrap";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import logo from '../images/logo.jpg';
@@ -65,7 +66,7 @@ class Header extends Component {
                         </Nav.Item>                  
                     </Nav>
                     </Navbar.Collapse>
-                <Button variant="danger" id="navbarbutton" className="rounded-pill" size="lg">  APPLY NOW  </Button>
+                <HeaderModal />
             </div>
             </Navbar>
             <div className="container">
