@@ -82,21 +82,21 @@ class Header extends Component {
                         <Carousel fade id="carousel">
                             <Carousel.Item>
                                 <img
-                                className="d-block w-100"
+                                className="d-block w-100 h-50"
                                 src={first}
                                 alt="First slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
-                                className="d-block w-100"
+                                className="d-block w-100 h-50"
                                 src={Carousel2}
                                 alt="Second slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
-                                className="d-block w-100"
+                                className="d-block w-100 h-50"
                                 src={Carousel3}
                                 alt="Third slide"
                                 />
